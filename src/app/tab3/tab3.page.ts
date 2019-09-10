@@ -32,13 +32,24 @@ export class Tab3Page {
                     nombre : 'card1',
                     // tslint:disable-next-line: max-line-length
                     descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
-                    imagen: 'assets/image/cartagena.jpg'
+                    imagen: 'assets/image/imagen2.jpg'
                   },
                   {
                     nombre : 'card2',
                     // tslint:disable-next-line: max-line-length
                     descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
-                    imagen: 'assets/image/cartagena.jpg'
+                    imagen: 'assets/image/imagen3.jpg'
+                  },         
+                  {
+                    nombre : 'card3',
+                    // tslint:disable-next-line: max-line-length
+                    descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+                    imagen: 'assets/image/imagen4.jpg'
+                  },         {
+                    nombre : 'card4',
+                    // tslint:disable-next-line: max-line-length
+                    descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+                    imagen: 'assets/image/imagen5.jpg'
                   },         
                 ]
       },
@@ -47,22 +58,34 @@ export class Tab3Page {
         "name": "Playas",
         "imagen": 'assets/image/playas.png',
         "card": [ {
-            nombre : 'card2',
+            nombre : 'playa1',
             // tslint:disable-next-line: max-line-length
             descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
-            imagen: 'assets/image/cartagena.jpg'
+            imagen: 'assets/image/playas3.jpg'
+          },
+          {
+            nombre : 'playa2',
+            // tslint:disable-next-line: max-line-length
+            descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+            imagen: 'assets/image/playas4.jpg'
           }
         ]
       },
       {
         "id": 2,
-        "name": "Gastronomia 2",
+        "name": "Gastronomia2",
         "imagen": 'assets/image/gastronomia2.png',
         "card": [ {
-            nombre : 'card3',
+            nombre : 'frutas',
             // tslint:disable-next-line: max-line-length
             descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
-            imagen: 'assets/image/cartagena.jpg'
+            imagen: 'assets/image/frutas3.jpg'
+          },
+          {
+            nombre : 'verduras',
+            // tslint:disable-next-line: max-line-length
+            descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+            imagen: 'assets/image/verduras4.jpg'
           }
         ]
       },
@@ -71,10 +94,22 @@ export class Tab3Page {
         "name": "Tendencias",
         "imagen": 'assets/image/tendencias.png',
         "card": [ {
-            nombre : 'card4',
+            nombre : 'cine',
             // tslint:disable-next-line: max-line-length
             descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
-            imagen: 'assets/image/cartagena.jpg'
+            imagen: 'assets/image/peliculas2.jpg'
+          },
+           {
+            nombre : 'juegos',
+            // tslint:disable-next-line: max-line-length
+            descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+            imagen: 'assets/image/juegos2.jpg'
+          },
+           {
+            nombre : 'arte',
+            // tslint:disable-next-line: max-line-length
+            descripcion : 'Según la historia el pueblo se llamaba Porto Rico (puerto rico), hasta que el 1850 se convirtió en un paraje donde se desembarcaban y comer',
+            imagen: 'assets/image/arte2.jpg'
           }
         ]
       },
