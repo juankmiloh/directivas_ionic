@@ -1,9 +1,19 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Formulario
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ul *ngFor="let item of data.members" >
+    <span *ngIf="item.age > 30" >
+      <li>
+        <b>name : </b> {{item.name}} <br>
+        <b>age : </b>{{item.age}} <br>
+        <b>powers : </b>{{item.powers}}
+      </li>
+    </span>
+  </ul>
+</ion-content>

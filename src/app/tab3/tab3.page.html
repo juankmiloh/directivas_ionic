@@ -1,9 +1,40 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
+      <ion-buttons slot="start">
+        <span *ngIf="!mostrarCategoria">
+          <ion-button (click)='back()'>
+            <ion-icon slot="icon-only" name="arrow-round-back"></ion-icon>
+          </ion-button>
+        </span>
+      </ion-buttons>
+      <ion-title>
+        Categorias
+      </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <span *ngIf="mostrarCategoria">
+    <ion-grid>
+      <ion-row>
+        <ion-col size=6 *ngFor="let item of data">
+            <ion-card class="welcome-card" (click)='onClickFunction(item.id)'>
+              <img src="{{item.imagen}}" alt=""/>
+            </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </span>
+
+  <span *ngIf="!mostrarCategoria">
+    <span *ngFor="let item of data[categoria].card">
+      <ion-card class="welcome-card" (click)='onClickFunction(item.id)'>
+          <img src="{{item.imagen}}" alt="" />
+          <ion-card-header>
+              <ion-card-title>{{item.nombre}}</ion-card-title>
+          </ion-card-header>
+      </ion-card>
+    </span>
+  </span>
+
+</ion-content>
